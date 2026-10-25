@@ -1,0 +1,8 @@
+{
+  "term": "Spring (sample, illustrative prices)",
+  "books": [
+    {"key": "ECN 212|principles of macroeconomics", "title": "Principles of Macroeconomics", "course": "ECN 212", "best_price": "0.00", "best_route": "open_textbook"},
+    {"key": "CSE 230|computer systems: a programmer's perspective", "title": "Computer Systems: A Programmer's Perspective", "course": "CSE 230", "best_price": "61.00", "best_route": "rental"},
+    {"key": "MAT 343|linear algebra with online homework", "title": "Linear Algebra with online homework", "course": "MAT 343", "best_price": "109.00", "best_route": "digital"}
+  ]
+}

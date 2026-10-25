@@ -1,0 +1,53 @@
+{
+  "term": "Spring (sample, illustrative prices)",
+  "books": [
+    {
+      "course": "ECN 212",
+      "title": "Principles of Macroeconomics",
+      "edition": "3e",
+      "status": "required",
+      "baseline": {"label": "bookstore new", "price": 89.99},
+      "options": [
+        {"route": "open_textbook", "source": "OpenStax", "price": 0, "url": "https://openstax.org/subjects/economics", "note": "same book the syllabus lists; free online, PDF download"},
+        {"route": "new", "source": "Campus bookstore", "price": 89.99, "url": "https://example.com/bookstore/ecn212"}
+      ]
+    },
+    {
+      "course": "CSE 230",
+      "title": "Computer Systems: A Programmer's Perspective",
+      "edition": "3e",
+      "status": "required",
+      "exact_edition_required": false,
+      "baseline": {"label": "bookstore new", "price": 199.50},
+      "options": [
+        {"route": "library_reserve", "source": "University library", "price": 0, "url": "https://example.com/library/reserve/cse230", "note": "2-hour in-library loan"},
+        {"route": "rental", "source": "Campus bookstore rental", "price": 54.00, "url": "https://example.com/bookstore/cse230-rent"},
+        {"route": "used", "source": "Used marketplace", "price": 72.25, "url": "https://example.com/used/cse230"},
+        {"route": "older_edition", "source": "Used marketplace", "price": 18.40, "url": "https://example.com/used/cse230-2e", "note": "2nd edition; ask the TA whether homework numbers match"},
+        {"route": "new", "source": "Campus bookstore", "price": 199.50, "url": "https://example.com/bookstore/cse230"}
+      ]
+    },
+    {
+      "course": "MAT 343",
+      "title": "Linear Algebra with online homework",
+      "status": "required",
+      "access_code": true,
+      "baseline": {"label": "bookstore bundle", "price": 145.00},
+      "options": [
+        {"route": "used", "source": "Used marketplace", "price": 40.00, "url": "https://example.com/used/mat343"},
+        {"route": "digital", "source": "Publisher site", "price": 99.00, "url": "https://example.com/publisher/mat343", "includes_code": true, "note": "ebook plus the homework code, for the term"},
+        {"route": "new", "source": "Campus bookstore", "price": 145.00, "url": "https://example.com/bookstore/mat343"}
+      ]
+    },
+    {
+      "course": "HST 109",
+      "title": "Course reader on US history",
+      "status": "recommended",
+      "baseline": {"label": "bookstore new", "price": 21.99},
+      "options": [
+        {"route": "library_ebook", "source": "University library", "price": 0, "url": "https://example.com/library/ebook/hst109"},
+        {"route": "used", "source": "Used marketplace", "price": 6.50, "url": "https://example.com/used/hst109"}
+      ]
+    }
+  ]
+}
